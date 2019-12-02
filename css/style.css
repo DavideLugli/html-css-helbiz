@@ -215,4 +215,16 @@ header {
   .jumbo_text a img {
     width: 100%;
   }
+
+  .products .container .col-xs-12 {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 3em;
+  }
+  .products .container .col-xs-12 .logo-wrap  a {
+    font-size: 2.2em;
+  }
+  .products .container .col-xs-12 .logo-wrap  p {
+    font-size: 2.5em;
+  }
 }

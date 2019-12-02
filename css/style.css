@@ -156,7 +156,47 @@ header {
   margin-top: 1.2em;
   margin-bottom: 1.2em;
 }
-
+#how .container-fluid {
+  background-image: url(../img/HelbizBanner.jpg);
+  height: 40em;
+  background-size: cover;
+  background-position: center;
+}
+#how .container .col-lg-4 {
+  height: 20em;
+}
+#how .container {
+  position: relative;
+  /* text-align: center; */
+}
+#how .container .title-wrapper {
+width: 25%;
+float: right;
+}
+#how .container .title-wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#how .container .title-wrapper::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#how .container .title-wrapper h2 {
+  font-size: 3em;
+}
+#how .container .text-wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+}
+#how .container img {
+  max-height: 65em;
+  transform: translateY(-35%);
+  z-index: 2;
+}
 @media screen and (max-width: 992px) and (min-width: 768px) {
   .header-top {
     padding: 0 2%;
